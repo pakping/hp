@@ -1,7 +1,4 @@
-
-# pakping
 ## Build Setup
-
 ```bash
 # install dependencies
 $ npm install
@@ -19,7 +16,7 @@ $ npm run generate
 ```bash
 ##For detailed explanation on how things work, check out Nuxt.js docs
 
-echo "# hp" >> README.md
+echo "# git hp" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
@@ -31,6 +28,12 @@ git remote add origin https://github.com/pakping/hp.git
 git branch -M main
 git push -u origin main
 
- git clone https://github.com/pakping/hp.git
+เครื่องใหม่
+git clone https://github.com/pakping/hp.git
+git commit -a -m " " 
+git push
 
+id email
+git config --global user.email "pakping_up@hotmail.com"
+git config --global user.name "pakping"
 ```
