@@ -1,4 +1,4 @@
-# hp
+
 # pakping
 ## Build Setup
 
@@ -18,7 +18,7 @@ $ npm run generate
 ```
 ```bash
 ##For detailed explanation on how things work, check out Nuxt.js docs
-5-5=0
+
 echo "# hp" >> README.md
 git init
 git add README.md
@@ -30,4 +30,7 @@ git push -u origin main
 git remote add origin https://github.com/pakping/hp.git
 git branch -M main
 git push -u origin main
+
+ git clone https://github.com/pakping/hp.git
+
 ```
