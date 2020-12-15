@@ -66,7 +66,7 @@ export default {
     methods:{
         onSubmit(evt){
             this.$emit('sendData',this.form)
-            this.$router.push('/admin/posts')
+            //console.log(this.form);
         },
         onReset(evt){
             evt.preventDefault();
