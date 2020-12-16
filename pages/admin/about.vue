@@ -1,3 +1,3 @@
-  <<template>
-      <h2> about admin chitipat</h2>
-  </template>
+<template>
+    <h2>Hello Admin About Page</h2>
+</template>

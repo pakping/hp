@@ -1,10 +1,28 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
-      <h1 class="title">hp</h1>
+      <logo />
+      <h1 class="title">
+        Basic Nuxt.js
+      </h1>
+      <h2 class="subtitle">
+        
+      </h2>
       <div class="links">
-        <nuxt-link to="/posts" class="button--grey">Posts</nuxt-link>
+        <a
+          href="https://nuxtjs.org/"
+          target="_blank"
+          class="button--green"
+        >
+          Documentation
+        </a>
+        <nuxt-link
+          to="https://github.com/nuxt/nuxt.js"
+          target="_blank"
+          class="button--grey"
+        >
+          GitHub
+        </nuxt-link>
         <nuxt-link to="/users" class="button--grey">Users</nuxt-link>
         <nuxt-link to="/admin" class="button--grey">Admin</nuxt-link>
       </div>
@@ -13,7 +31,13 @@
 </template>
 
 <script>
-export default {};
+import Logo from '~/components/Logo.vue'
+
+export default {
+  components: {
+    Logo
+  }
+}
 </script>
 
 <style>
@@ -27,8 +51,8 @@ export default {};
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;

@@ -1,3 +1,3 @@
-  <<template>
-      <h2>chitipat</h2>
-  </template>
+<template>
+    <h2>1</h2>
+</template>
